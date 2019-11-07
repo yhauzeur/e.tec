@@ -1,8 +1,19 @@
 body,
 figure {
+  font-size: 18px;
   font-family: Helvetica;
   margin: 0;
   padding: 0;
+}
+h1 {
+  font-family: 'Audiowide', cursive;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', sans-serif;
 }
 header {
   background-image: url("../img/slide01.jpg");
@@ -13,4 +24,34 @@ header {
   font-family: Helvetica;
   min-height: 700px;
   width: 100vw;
+}
+header h1 {
+  color: #0ab1d3;
+}
+header h2 {
+  font-size: 2.2em;
+}
+.header--info {
+  position: absolute;
+  top: 20%;
+  margin: auto 5%;
+}
+.header--info a {
+  color: #fff;
+  text-decoration: none;
+  background: rgba(10,177,211,0.6);
+  padding: 0.5em 0.8em;
+  border-radius: 20px;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+}
+.logo img {
+  width: 100px;
+}
+@media all and (max-width: 425px) {
+  header h2 {
+    font-size: 1.5em;
+  }
 }
