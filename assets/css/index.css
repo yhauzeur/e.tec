@@ -8,15 +8,11 @@ figure {
 h1 {
   font-family: 'Audiowide', cursive;
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Saira Extra Condensed', sans-serif;
+p {
+  color: rgba(0,0,0,0.8);
 }
 header {
-  background-image: url("../img/slide01.jpg");
+  background-image: url("../img/slide02.jpg");
   background-size: cover;
   background-position: 70%;
   background-repeat: no-repeat;
@@ -30,11 +26,23 @@ header h1 {
 }
 header h2 {
   font-size: 2.2em;
+  margin-bottom: 0;
+  margin-top: 1.2em;
+}
+header h6 {
+  font-size: 1em;
+  margin-top: 0.5em;
+  color: rgba(0,0,0,0.5);
+}
+header h6:after,
+header h6:before {
+  content: "''";
 }
 .header--info {
   position: absolute;
-  top: 20%;
+  top: 16%;
   margin: auto 5%;
+  max-width: 900px;
 }
 .header--info a {
   color: #fff;
@@ -43,12 +51,39 @@ header h2 {
   padding: 0.5em 0.8em;
   border-radius: 20px;
 }
-.logo {
-  margin: 0;
-  padding: 0;
+.header--info h1 {
+  margin-top: 2.2em;
 }
-.logo img {
-  width: 100px;
+.header--info h1 img {
+  height: 1em;
+}
+.icofont-layers {
+  font-size: 5em;
+  color: #0ab1d3;
+}
+.intro,
+.intro--img {
+  margin: auto 5%;
+  display: inline-block;
+}
+.intro {
+  max-width: 596px;
+  margin-top: 2em;
+}
+.intro--img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.intro--img img {
+  max-width: 300px;
+}
+.intro--img .intro--img--box {
+  width: 320px;
+  margin: 1em;
+  max-width: auto;
+  text-align: center;
 }
 @media all and (max-width: 425px) {
   header h2 {
