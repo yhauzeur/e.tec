@@ -12,7 +12,7 @@ p {
   color: rgba(0,0,0,0.8);
 }
 header {
-  background-image: url("../img/slide02.jpg");
+  background-image: url("../img/slide02.webp");
   background-size: cover;
   background-position: 70%;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ header h6:before {
   background: #04252e;
 }
 .beneficios {
-  background-image: url("../img/low-angle-photo-of-white-building-2763969.jpg");
+  background-image: url("../img/low-angle-photo-of-white-building-2763969.webp");
   background-position-x: 50%;
   background-position-y: 50%;
   background-repeat: no-repeat;
