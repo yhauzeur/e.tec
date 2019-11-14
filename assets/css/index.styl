@@ -1,19 +1,18 @@
 @import 'colors'
-	// font-family: 'Audiowide', cursive;
-	// font-family: 'Mansalva', cursive;
-	// font-family: 'Saira Extra Condensed', sans-serif;
-	// font-family: 'Covered By Your Grace', cursive;
+	// font-family 'Audiowide', cursive;
+	// font-family 'Mansalva', cursive;
+	// font-family 'Saira Extra Condensed', sans-serif;
+	// font-family 'Covered By Your Grace', cursive;
 
 // index
 body
 figure
 	font-size 18px
-	font-family: Helvetica
+	font-family Helvetica
 	margin 0
 	padding 0
-
 h1
-	font-family: 'Audiowide', cursive;
+	font-family 'Audiowide', cursive;
 p
 	color rgba(#000, .8)
 // index
@@ -31,17 +30,16 @@ header
 	h1
 		color azul
 	h2
-		font-size: 2.2em
-		margin-bottom: 0
+		font-size 2.2em
+		margin-bottom 0
 		margin-top 1.2em
 	h6
-		font-size: 1em
+		font-size 1em
 		margin-top .5em
 		color rgba(#000, .5)
 	h6:after
 	h6:before
 		content "''"
-
 .header--info
 	position absolute
 	top 16%
@@ -49,7 +47,7 @@ header
 	max-width: 900px
 	a
 		color #fff
-		text-decoration: none
+		text-decoration none
 		background rgba(azul, .6)
 		padding .5em .8em
 		border-radius 20px
@@ -58,7 +56,7 @@ header
 		img
 			height 1em
 .icofont-layers
-	font-size: 5em
+	font-size 5em
 	color azul
 // header
 
@@ -66,21 +64,22 @@ header
 .box--one
 	flex-flow wrap
 	margin auto 5%
-	flex-grow: 1
+	flex-grow 1
 	.box--one--intro
 		max-width 562px
 	.box--one--img
-		display inline-flex
 		flex-wrap wrap
-		text-align: center
+		text-align center
 		margin-top 1em
+		margin-left auto
+		margin-right auto
+		display flex
 		.box--one--imgs
 			margin-top 2em
 			width 33%
 			p
 				padding 0 2em
-				font-size: .9em
-				color rgba(#000, .66)
+				color rgba(#000, .6)
 			img
 				width 80%
 // intro
@@ -91,65 +90,78 @@ header
 		h2
 			margin-top 3em
 			margin-right 5%
+			text-align right
+		.price--intro
+			display flex
+			flex-direction: column
+			align-items flex-end
+		.price---description
+			background yellow
+			margin-right 5%
+			margin-left 5%
+			margin-top 0
+			margin-bottom 2em
 			text-align: right
-
+			max-width 768px
 .prices--boxes
 	overflow-x auto
 	white-space nowrap
-	text-align: center
+	text-align center
 	margin-left 4px
 	margin-right 4px
 	h3
 		color #fff
 		margin-bottom 0
 		margin-top 0
-		padding-bottom: .5em
+		padding-bottom .5em
 		border-bottom 2px solid
 	img
 		margin-top 1em
 		height 2em
-		margin-bottom: .5em
+		margin-bottom .5em
 	[class^="prices--box--"]
 		max-width 280px
-		display: inline-block
-		border-radius: 10px
+		display inline-block
+		border-radius 10px
 		.table
 			color white
+		a
+			color inherit
 	.prices--box--1
-		background: azul--light-1
+		background azul--light-1
 	.prices--box--2
-		background: azul--light-2
+		background azul--light-2
 	.prices--box--3
-		background: azul--shadow-1
+		background azul--shadow-1
 	.prices--box--4
-		background: azul--shadow-2
+		background azul--shadow-2
 	.prices--box--5
-		background: azul--shadow-3
+		background azul--shadow-3
 // price
 
 // beneficios
 .beneficios
-	background-image: url("../img/low-angle-photo-of-white-building-2763969.webp")
-	background-position-x: 50%
-	background-position-y: 50%
-	background-repeat: no-repeat
-	background-attachment: fixed
-	background-size: cover
+	background-image url("../img/low-angle-photo-of-white-building-2763969.webp")
+	background-position-x 50%
+	background-position-y 50%
+	background-repeat no-repeat
+	background-attachment fixed
+	background-size cover
 	padding 1em 5%
 	display inline-flex
-	flex-wrap: wrap
+	flex-wrap wrap
 	padding-top 4em
 	.beneficio
 		width 30%
 		padding .1em .5em
 		box-sizing border-box
 		margin-bottom 2em
-		text-align: center
+		text-align center
 		margin-left auto
 		margin-right auto
 		.beneficio--img
 			max-width 30%
-			min-width: 100px
+			min-width 100px
 			display block
 			margin-left auto
 			margin-right auto

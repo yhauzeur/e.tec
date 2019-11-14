@@ -1,1 +1,1 @@
-@media all and (max-width:425px){header h2{font-size:1.5em}.beneficios{flex-direction:column;}.beneficios .beneficio{width:auto}}@media all and (max-width:375px){.box--one .box--one--img{flex-direction:column;}.box--one .box--one--img .box--one--imgs{width:100%}}
+@media all and (min-width:2560px){body{font-size:1.3em}}@media all and (max-width:425px){header h2{font-size:1.5em}.beneficios{flex-direction:column;}.beneficios .beneficio{width:auto}.box--one .box--one--img{flex-direction:column;}.box--one .box--one--img .box--one--imgs{width:100%}}
