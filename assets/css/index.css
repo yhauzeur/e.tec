@@ -61,32 +61,123 @@ header h6:before {
   font-size: 5em;
   color: #0ab1d3;
 }
-.intro,
-.intro--img {
+.box--one {
+  flex-flow: wrap;
   margin: auto 5%;
-  display: inline-block;
+  flex-grow: 1;
 }
-.intro {
-  max-width: 596px;
-  margin-top: 2em;
+.box--one .box--one--intro {
+  max-width: 562px;
 }
-.intro--img {
-  display: flex;
-  flex-direction: row;
+.box--one .box--one--img {
+  display: inline-flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
-.intro--img img {
-  max-width: 300px;
-}
-.intro--img .intro--img--box {
-  width: 320px;
-  margin: 1em;
-  max-width: auto;
   text-align: center;
+  margin-top: 1em;
+}
+.box--one .box--one--img .box--one--imgs {
+  margin-top: 2em;
+  width: 33%;
+}
+.box--one .box--one--img .box--one--imgs p {
+  padding: 0 2em;
+  font-size: 0.9em;
+  color: rgba(0,0,0,0.66);
+}
+.box--one .box--one--img .box--one--imgs img {
+  width: 80%;
+}
+.price .prices h2 {
+  margin-top: 3em;
+  margin-right: 5%;
+  text-align: right;
+}
+.prices--boxes {
+  overflow-x: auto;
+  white-space: nowrap;
+  text-align: center;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.prices--boxes h3 {
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid;
+}
+.prices--boxes img {
+  margin-top: 1em;
+  height: 2em;
+  margin-bottom: 0.5em;
+}
+.prices--boxes [class^="prices--box--"] {
+  max-width: 280px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.prices--boxes [class^="prices--box--"] .table {
+  color: #fff;
+}
+.prices--boxes .prices--box--1 {
+  background: #4dc3db;
+}
+.prices--boxes .prices--box--2 {
+  background: #0887a1;
+}
+.prices--boxes .prices--box--3 {
+  background: #044754;
+}
+.prices--boxes .prices--box--4 {
+  background: #1d4b54;
+}
+.prices--boxes .prices--box--5 {
+  background: #04252e;
+}
+.beneficios {
+  background-image: url("../img/low-angle-photo-of-white-building-2763969.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 1em 5%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-top: 4em;
+}
+.beneficios .beneficio {
+  width: 30%;
+  padding: 0.1em 0.5em;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.beneficios .beneficio .beneficio--img {
+  max-width: 30%;
+  min-width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media all and (max-width: 425px) {
   header h2 {
     font-size: 1.5em;
+  }
+  .beneficios {
+    flex-direction: column;
+  }
+  .beneficios .beneficio {
+    width: auto;
+  }
+}
+@media all and (max-width: 375px) {
+  .box--one .box--one--img {
+    flex-direction: column;
+  }
+  .box--one .box--one--img .box--one--imgs {
+    width: 100%;
   }
 }
