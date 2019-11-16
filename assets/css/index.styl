@@ -27,7 +27,6 @@ header
 	background-origin margin
 	font-family Helvetica
 	min-height 700px
-	width 100vw
 	h1
 		color azul
 	h2
@@ -99,38 +98,25 @@ header
 			display flex
 			flex-direction: column
 			align-items flex-end
-		.price---description
-			background yellow
 			margin-right 5%
-			margin-left 5%
-			margin-top 0
-			margin-bottom 2em
-			text-align: right
-			max-width 768px
+			margin-bottom 1em
 .prices--boxes
-	overflow-x auto
-	white-space nowrap
+	// overflow-x auto
+	// white-space nowrap
 	text-align center
 	margin-left 4px
 	margin-right 4px
+	a
+		text-decoration: none
 	h3
 		color #fff
-		margin-bottom 0
-		margin-top 0
-		padding-bottom .5em
-		border-bottom 2px solid
-	img
-		margin-top 1em
-		height 2em
-		margin-bottom .5em
+		margin 1em auto
 	[class^="prices--box--"]
-		max-width 280px
-		display inline-block
+		min-width 280px
+		display inline-flex
 		border-radius 10px
-		.table
-			color white
-		a
-			color inherit
+		align-items: center
+		margin-top 5px
 	.prices--box--1
 		background azul--light-1
 	.prices--box--2
@@ -141,6 +127,8 @@ header
 		background azul--shadow-2
 	.prices--box--5
 		background azul--shadow-3
+.terminos
+	font-size: .8em
 // price
 
 // beneficios
@@ -197,13 +185,16 @@ input
 	border 0
 
 label, input
-	width 280px
+	max-width 280px
 	box-sizing border-box
 	padding .5em
 	display block
 	border-radius: 5px
 .clear
 	margin-bottom 2em
+
+#mc_embed_signup .mc-field-group
+	padding-bottom: 0 !important
 // cta
 
 // footer
@@ -233,10 +224,12 @@ label, input
 		h3
 			margin-top .5em
 			font-size: .8em
-.dark
+.redchainco
 	min-height 2em
 	background #262626
 	text-align: center
+	a
+		text-decoration none
 
 	p
 		margin 0

@@ -1,0 +1,4 @@
+User-agent:*
+Sitemap:https://empatetecnologi.co/sitemap.xml
+Allow: /ads.txt
+Allow: /sitemap.xml
