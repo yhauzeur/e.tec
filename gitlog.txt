@@ -1,0 +1,125 @@
+commit a0fde046b9017d591fc0e4e4299ddc365402d2fc
+Author: Red Chain Company <security@redchain.co>
+Date:   Sun Nov 17 19:24:38 2019 -0500
+
+    20usd
+
+commit 1eace8eb3aef0f89890ee488553f232f657e9482
+Author: Red Chain Company <security@redchain.co>
+Date:   Sat Nov 16 22:55:59 2019 -0500
+
+    cambio del formde mailchimp
+
+commit c2890c9215464daf841e691750d70f131d66228a
+Author: Red Chain Company <security@redchain.co>
+Date:   Sat Nov 16 22:31:41 2019 -0500
+
+    line-height 1.5
+
+commit ddc317419e7be39c164c9a43bdbe337c30cef3b4
+Author: Red Chain Company <security@redchain.co>
+Date:   Sat Nov 16 19:42:24 2019 -0500
+
+    space in WA text
+
+commit 1f042b9a4035e8aa839bcf68872d25a8f4788398
+Author: Red Chain Company <security@redchain.co>
+Date:   Sat Nov 16 19:38:30 2019 -0500
+
+    fix redchain box footer
+
+commit 2b5588ec5a6b0821e04463acd191374917b86fb5
+Author: Red Chain Company <security@redchain.co>
+Date:   Sat Nov 16 19:31:59 2019 -0500
+
+    fix whatsapp2
+
+commit 0c425c39f5c047045712d9437ff845532c9e15cc
+Author: Red Chain Company <security@redchain.co>
+Date:   Sat Nov 16 19:28:27 2019 -0500
+
+    hatsaap Fix
+
+commit 9413b79c99cb87b7df497649f7519baba591947c
+Author: Red Chain Company <security@redchain.co>
+Date:   Sat Nov 16 19:06:46 2019 -0500
+
+    clientes y img-size
+
+commit 16a1f5cd823b995375149a06a1fb2238c4d65166
+Author: Red Chain Company <security@redchain.co>
+Date:   Sat Nov 16 18:57:47 2019 -0500
+
+    precios
+
+commit b7e6678202b61d9a7868b3171a7b3ab6e7e91685
+Author: Red Chain Company <security@redchain.co>
+Date:   Fri Nov 15 12:02:25 2019 -0500
+
+    alt, json, meta
+
+commit 0a4a6fb727d21cfbedc9048d206dc8774b1783ab
+Author: Red Chain Company <security@redchain.co>
+Date:   Fri Nov 15 01:48:13 2019 -0500
+
+    analytics and xmlMap
+
+commit 2659fdde4b679cda8ac4bd1892e4c5ce9d2f2a94
+Author: Red Chain Company <security@redchain.co>
+Date:   Fri Nov 15 01:41:22 2019 -0500
+
+    seo basico
+
+commit ec1ffbc115eb1b664d3ab13d0b38c7effcbf9995
+Author: Red Chain Company <security@redchain.co>
+Date:   Fri Nov 15 01:19:22 2019 -0500
+
+    footer
+
+commit 98c99c82c54c84c7c1781af78829c4db9bb97e43
+Author: Red Chain Company <security@redchain.co>
+Date:   Thu Nov 14 12:02:49 2019 -0500
+
+    beneficios
+
+commit 4b1abc34fac6ff594c3048183a31c2866a11f905
+Author: Red Chain Company <security@redchain.co>
+Date:   Wed Nov 13 22:34:48 2019 -0500
+
+    tiny img
+
+commit 4fa6a80df1eb5a9c86950c19c310b29d9ebd0a26
+Author: Red Chain Company <security@redchain.co>
+Date:   Wed Nov 13 22:31:13 2019 -0500
+
+    normalize index minimized
+
+commit 2109d986b1e680eb397e19ddb593f3c351aca436
+Author: Red Chain Company <security@redchain.co>
+Date:   Wed Nov 13 22:23:43 2019 -0500
+
+    jpg-png to webp
+
+commit 1e918847c545b70cbc4f33481911ffd105e026b3
+Author: Red Chain Company <security@redchain.co>
+Date:   Wed Nov 13 22:10:28 2019 -0500
+
+    fixin img
+
+commit 8044dc5d450609b4e0e58fb1f30f27888bae93fa
+Author: Red Chain Company <security@redchain.co>
+Date:   Sun Nov 10 17:47:52 2019 -0500
+
+    test de header y box--1
+
+commit b69191dbf1534e4d0cc8f3095471d2246d44e239
+Author: Red Chain Company <security@redchain.co>
+Date:   Thu Nov 7 10:50:41 2019 -0500
+
+    header style
+
+commit bb85e69a2a8fd7da54d8d4aee2ae607df39fd039
+Author: Red Chain Company <security@redchain.co>
+Date:   Thu Nov 7 08:35:47 2019 -0500
+
+    header

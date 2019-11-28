@@ -46,19 +46,18 @@ header
 	top 16%
 	margin auto 5%
 	max-width: 900px
-	a
-		color #fff
-		text-decoration none
-		// background rgba(azul, .6)
-		background rgba(azul--light-2, .6)
-		padding .5em .8em
-		border-radius 20px
 	h1
 		margin-top 2.2em
 		img
 			height 1em
 	img
 		height 100px
+	#btn-header
+		color #fff
+		background rgba(azul--light-2, .6)
+		border-radius 20px
+		padding .5em .8em
+		text-decoration none
 .icofont-layers
 	font-size 5em
 	color azul
@@ -165,11 +164,36 @@ header
 	color white
 	padding-bottom 2em
 	background azul--shadow-1
+	display flex
+	flex-direction: row
+	justify-content: space-evenly
 	.cta--box
 		margin-right m5pp
 		margin-left m5pp
 		p
 			color white
+	.blog-post
+		display: flex
+		flex-wrap: wrap
+		flex-direction: row
+		padding 2em
+		justify-content: space-between
+		.post-
+			display: flex
+			margin 1em
+			color white
+			text-decoration: none
+			p
+				color inherit
+				font-size: .8em
+				margin-left 1em
+			h3
+				margin .5em
+				// font-size: .8em
+			img
+				height 150px
+				object-fit: cover
+				border-radius: 20px
 	h2
 		margin-top 0
 		padding-top 2em
